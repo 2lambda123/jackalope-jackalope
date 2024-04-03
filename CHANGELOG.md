@@ -4,13 +4,13 @@ CHANGELOG
 2.x
 ===
 
-2.0.0 (unreleased)
-------------------
+2.0.0
+-----
 
 * Switch to strict static typing.
 * Fixed incorrect return type on `FullTextSearch::getFullTextSearchExpression` to return a QOM Literal instead of `string`, as per the PHPCR spec.
 * Drop support for PHP 7.
-* Allow installation with phpcr-utils 2.
+* Allow installation with phpcr-utils 2.*.
 
 1.x
 ===
