@@ -113,13 +113,13 @@ final class NodeTypeDefinitionTest extends TestCase
         $this->assertTrue($propertyDefinitions[0]->isFullTextSearchable());
         $this->assertTrue($propertyDefinitions[0]->isQueryOrderable());
         $this->assertEquals([
-                'jcr.operator.equal.to',
-                'jcr.operator.not.equal.to',
-                'jcr.operator.greater.than',
-                'jcr.operator.greater.than.or.equal.to',
-                'jcr.operator.less.than',
-                'jcr.operator.less.than.or.equal.to',
-                'jcr.operator.like',
+            'jcr.operator.equal.to',
+            'jcr.operator.not.equal.to',
+            'jcr.operator.greater.than',
+            'jcr.operator.greater.than.or.equal.to',
+            'jcr.operator.less.than',
+            'jcr.operator.less.than.or.equal.to',
+            'jcr.operator.like',
         ], $propertyDefinitions[0]->getAvailableQueryOperators());
 
         $this->assertEquals('jcr:created', $propertyDefinitions[1]->getName());
